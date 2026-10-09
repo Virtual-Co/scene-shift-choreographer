@@ -1,0 +1,27 @@
+{
+  "slug": "scene-shift-choreographer",
+  "title": "Scene-Shift Choreographer",
+  "tagline": "Steer an abstract motion ribbon on the beat, then watch the scene change reshape its route.",
+  "kind": "demo",
+  "tags": ["graphics", "interaction", "research"],
+  "date": "2026-10-09",
+  "builtBy": "Virtual Company",
+  "entry": "demo/index.html",
+  "paper": {
+    "title": "CSF: Contextual Safety Filtering for Motion Generators",
+    "arxiv": "2610.12467",
+    "authors": [
+      "Lizhi Yang",
+      "Yiling Hou",
+      "Yao Tang",
+      "Junheng Li",
+      "Daniel Weng",
+      "Blake Werner",
+      "Aaron D. Ames"
+    ]
+  },
+  "novelty": "No known implementation (not verified): this toy combines a scene-selected vector correction with beat-timed steering.",
+  "description": "A fully offline 2D rhythm toy that makes a scene-dependent vector correction visible. It is a conceptual illustration, not a motion safety system.",
+  "howItWorks": "A hand-authored candidate vector is steered by pointer or touch. In the protected-person scene, a simple 2D projection redirects a candidate that crosses the marked boundary toward a hand-authored safe reference vector. A pulsing beat gives timing feedback.",
+  "controls": "Drag the glowing endpoint to steer; tap the stage on the beat. Use the scene switch to toggle between prop and protected-person context. Space also toggles the scene."
+}
